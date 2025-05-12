@@ -1,7 +1,9 @@
 import curses
 
 
-def create_center_window(stdscr: curses.window, height: int, width: int):
+def create_center_window(
+    stdscr: curses.window, height: int, width: int
+) -> curses.window:
     center_x, center_y = stdscr.getmaxyx()
     center_x = center_x // 2 - height // 2
     center_y = center_y // 2 - width // 2

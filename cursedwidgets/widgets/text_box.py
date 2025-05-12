@@ -4,7 +4,7 @@ from ..constants import SPECIAL_KEYS
 from .base import SelectableWidget
 
 
-class EditableBox(SelectableWidget):
+class TextBox(SelectableWidget):
     def __init__(
         self,
         win: curses.window,
