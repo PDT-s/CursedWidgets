@@ -1,1 +1,1 @@
-from selectable import SelectableWidget # noqa: F401
+from .selectable import SelectableWidget # noqa: F401
